@@ -526,6 +526,142 @@ aside img {
         margin-left: 0;
     }
 }
+
+@media (min-width: 426px) and (max-width: 1100px) {
+
+    header img {
+        margin-left: 20px;
+    }
+
+    #filter h1 {
+        margin: 30px 20px 20px;
+    }
+
+    #search-bar {
+        margin: 10px 20px 20px;
+    }
+
+    #filters h2{
+        display: none;
+    }
+
+    #filter p {
+        margin-left: 20px;
+    }
+
+    #filters {
+        width: 100%;
+    }
+
+    .filters {
+        padding-left: 10px;
+    }
+
+    #b1 {
+        display: none;
+    }
+
+    #b2 {
+        display: block;
+        width: 30px;
+        padding-top: 8px;
+        margin-left: 15px;
+    }
+
+    .hotels {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #container1 {
+        width: 100%;
+        height: 800px;
+        margin-top: 20px;
+        background-color: #ffffff;
+    }
+
+    .figure1 {
+        width: 310px;
+        border-style: none;
+        box-shadow: 3px 3px 3px 3px #F2F2F2;
+    }
+
+    #container1 img {
+        width: 306px;
+    }
+
+    #container1 h3 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #container1 p {
+        margin-top: 17px;
+        margin-bottom: 10px;
+    }
+
+    #container1 .stars {
+        margin-top: 15px;
+    }
+
+    aside {
+        width: 100%;
+        height: 280px;
+        border-radius: 15px;
+    }
+
+    aside h2 {
+        margin-left: 30px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    aside .logo3 {
+        padding-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    aside h3 {
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+    aside p {
+        height: 10px;
+        margin-top: 13px;
+        margin-bottom: 0;
+    }
+
+    aside .stars {
+        margin-top: 8px;
+    }
+
+    #fig2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        width: 100%;
+    }
+
+    .figure2 {
+        width: 200px;
+        height: 180px;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    aside img {
+        width: 192px;
+        height: 80px;
+        padding: 4px 4px 2px ;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .more {
+        width: 90%;
+    }
+}
         
         
     /* section Activités */
@@ -685,6 +821,50 @@ aside img {
         }
 
 }
+
+@media (min-width: 426px) and (max-width: 1100px) {
+
+    #container3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .Activity {
+    border-style: none;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    }
+
+    #anchor2 {
+        margin-left: 35px;
+    }
+
+    .figure3,
+    .figure4,
+    .figure5,
+    .figure6,
+    .figure7 {
+        width: 300px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color: #ffffff;
+    }
+
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7 {
+        width: 310px;
+    }
+
+    .figure7 {
+        order: 7;
+    }
+}
                
         
     /* Footer */
@@ -725,5 +905,19 @@ aside img {
         padding: 0;
         padding-top: 15px;
         padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1100px) {
+                    
+    #footer {
+        margin: 0;
+        padding-left: 50px;
+        padding-right: 80px;
+        background-color: #ffffff;
+    }
+
+    #footer p {
+        height: 20px;
     }
 }
